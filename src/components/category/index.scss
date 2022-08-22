@@ -1,0 +1,74 @@
+@import "../../styles/variables.scss";
+
+.category-container {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  line-height: 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -ms-overflow-style: none; // IE 10+
+  overflow: -moz-scrollbars-none; // Firefox
+  z-index: 1;
+  padding: 6px 20px;
+
+  // theme
+  border-top: 1px solid $light-category-border-color;
+  border-bottom: 1px solid $light-category-border-color;
+  border-right: 6px solid $light-category-border-color;
+  border-left: 6px solid $light-category-border-color;
+  background-color: $light-category-background-color;
+  // theme end
+
+  .item {
+    display: inline-block;
+    margin: 0.25rem 6px 0.25rem 0;
+    border-radius: 15px;
+    white-space: normal;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    div {
+      display: block;
+      padding: 14px 16px 16px 16px;
+      font-size: 13px;
+      box-sizing: border-box;
+    }
+  }
+
+  // theme
+  .item {
+    border: 1px solid $light-category-border-color;
+    background-color: $light-category-item-color;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    a {
+      color: $light-category-text-color;
+    }
+    &[aria-selected="true"] {
+      border: 2px solid $light-category-highlight-border-color;
+      font-weight: bolder;
+    }
+    &[aria-selected="true"] a {
+      color: $light-category-highlight-text-color;
+    }
+  }
+  // theme end
+
+  .item:last-child {
+    margin-right: 0;
+  }
+}
+
+.category-container::-webkit-scrollbar {
+  display: none; // Safari and Chrome
+}
+
+.category-container {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  .my-smooth-container {
+    scroll-behavior: auto;
+  }
+}
