@@ -38,11 +38,11 @@ RSA 는 역사가 길기 때문에, 구현과 호환성을 중시하는 경우 �
 
 ## RSA
 
-[RSA](../rsa/index.md)
+[RSA](../rsa/index)
 
 ## ECDSA
 
-[ECDSA](../ethereum-sign-and-ecdsa/index.md)
+[ECDSA](../ethereum-sign-and-ecdsa/index)
 
 ## References
 

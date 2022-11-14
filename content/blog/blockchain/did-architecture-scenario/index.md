@@ -12,11 +12,11 @@ draft: true
 
 ![](./images/did-아키텍처-시나리오-1.png)
 
-- [did 에 대해](../did-outline/index.md)
-- [did 생성](../did-creation/index.md)
-- [vc vp 검증](../verify-vc-and-vp/index.md)
-- [Rest API DID 서명](../sign-did-in-rest-api/index.md)
-- [Rest API DID 검증](../verify-did-in-rest-api/index.md)
+- [did 에 대해](../did-outline/index)
+- [did 생성](../did-creation/index)
+- [vc vp 검증](../verify-vc-and-vp/index)
+- [Rest API DID 서명](../sign-did-in-rest-api/index)
+- [Rest API DID 검증](../verify-did-in-rest-api/index)
 
 ## 용어 정리
 

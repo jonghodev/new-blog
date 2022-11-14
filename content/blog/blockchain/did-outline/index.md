@@ -70,4 +70,4 @@ DID 는 블록체인의 스마트 컨트랙트에 저장됩니다. Smart Contrac
 
 ## References
 
-[https://github.com/METADIUM/meta-DID/blob/master/doc/DID-method-metadium.md](https://github.com/METADIUM/meta-DID/blob/master/doc/DID-method-metadium.md)
+[https://github.com/METADIUM/meta-DID/blob/master/doc/DID-method-metadium](https://github.com/METADIUM/meta-DID/blob/master/doc/DID-method-metadium)
